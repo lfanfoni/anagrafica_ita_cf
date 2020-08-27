@@ -4,9 +4,14 @@ Gruppo di domande Limesurvey 3.X con domande su dati anagrafici, con autocomplet
 Demo: https://www.cervelletta.it/limesurvey/index.php/627597
 
 Il gruppo di domande contiene le seguenti domande (tra parentesi i codici di domanda):
- Nome (codice Qnome)
- Cognome (codice Qcognome)
- Codice Fiscale (codice Qcodfis): contiene controllo sintattico con espressione regolare su posizione di numeri e lettere del codice fiscale. Vedi impostazione di logica/equazione di convalida
+- Nome (codice Qnome)
+- Cognome (codice Qcognome)
+- Codice Fiscale (codice Qcodfis): contiene controllo sintattico con espressione regolare su posizione di numeri e lettere del codice fiscale. Vedi impostazione di logica/equazione di convalida
+- Data di nascita (codice Qdatanascita)
+- Luogo di nascita (codice Qluogonascita): domanda con script di aurocompletamento del testo per selezionare i Comuni (compresi i cessati) italiani e gli Stati Eesteri (compresi i cessati) da una lista in formato csv (luoghi_nascita.csv) da caricare nella sottocartella "files" della survey. In alternativa si può modificare lo script e farlo puntare alla risorsa online (seguire le istruzioni nei commenti dello script). Se si cerca e seleziona la stringa "Non trovato", viene visualizzata la domanda successiva.
+- Altro luogo di nascita (codice Qaltroluogo):
+
+ 
  
  
 

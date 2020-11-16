@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Group</LimeSurveyDocType>
+ <DBVersion>360</DBVersion>
+ <languages>
+  <language>it</language>
+ </languages>
+ <groups>
+  <fields>
+   <fieldname>gid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_name</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>description</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <gid><![CDATA[303]]></gid>
+    <sid><![CDATA[586423]]></sid>
+    <group_name><![CDATA[Dati anagrafici ]]></group_name>
+    <group_order><![CDATA[0]]></group_order>
+    <description/>
+    <language><![CDATA[it]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+  </rows>
+ </groups>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+   <fieldname>modulename</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[6106]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[Qnome]]></title>
+    <question><![CDATA[Nome]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[6107]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[Qcognome]]></title>
+    <question><![CDATA[Cognome]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[6108]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[Qcodfisc]]></title>
+    <question><![CDATA[Codice Fiscale]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[6109]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[D]]></type>
+    <title><![CDATA[Qdatanascita]]></title>
+    <question><![CDATA[Data di nascita]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[6110]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[Qluogonascita]]></title>
+    <question><![CDATA[Comune di nascita o stato estero di nascita.
+<style type="text/css">@import "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css";
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.9/jquery.csv.min.js"></script> <script type="text/javascript" src=https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js></script> <script type="text/javascript" charset="utf-8">
+  /*
+        Copyright 2020 Luciano Fanfoni - lfanfoni@gmail.com
+        Distributed under MIT licence
+
+        Permission is hereby granted, free of charge, to any person obtaining
+        a copy of this software and associated documentation files (the
+        "Software"), to deal in the Software without restriction, including
+        without limitation the rights to use, copy, modify, merge, publish,
+        distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to
+        the following conditions:
+
+        The above copyright notice and this permission notice shall be
+        included in all copies or substantial portions of the Software.
+
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+        LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+        WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+		Modifiche per compatibilità versioni 2.7X
+
+*/
+  	$(document).on('ready pjax:scriptcomplete',function(){
+		var qID = {QID};
+		var surveyRoot = location.pathname.split('index.php')[0];
+
+		// Carica il csv da cartella "files" della survey
+      	//var url = surveyRoot+"upload/surveys/"+{SID}+"/files/luoghi_nascita.csv";
+      	// Carica il csv dal sito "cervelletta.it" - commentare istruzione precedente
+      	var url = "https://www.cervelletta.it/ls-ita/data/luoghi_nascita.csv";
+
+      	// Crea l'array per memorizzare i dati
+		var elenco_arr= new Array();
+
+		// Acquisisce i contenuti dal file csv
+		$.get(url,function(data){
+
+			// Converte il contenuto del CSV in un array di array
+			fullArray = $.csv.toArrays(data);
+
+			// Carica ll'array dei dati
+			$(fullArray).each(function(i, item){
+				elenco_arr.push(item[0]);
+			});
+
+			// Inizializza il plugin dell'autocomplete
+			$('#question'+qID+' input[type="text"]').autocomplete({
+               // Effettua la ricerca a partire dal primo carattere digitato
+              	source: function( request, response ) {
+                    var matcher = new RegExp( "^" + $.ui.autocomplete.escapeRegex( request.term ), "i" );
+          			response( $.grep( elenco_arr, function( item ){
+              		return matcher.test( item );
+          		}) );
+      			},
+              	//Imposta il numero minimo di caratteri digitati per iniziare la ricerca
+              	minLength: 3,
+				change: function(event, ui) {
+                  if(!ui.item){ 
+                    // Ripulisce il textbox nel caso in cui il testo digitato non trova corrispondenze nell'array
+                      $(this).val('');
+					}
+					currentVal = $(this).val();
+				},
+              	response: function(event, ui) {
+					if($(ui.content).size() == 0){ 
+                      	// Nessuna corrispondenza trovata: ripristina l'ultimo valore
+						$(this).val(currentVal);
+						setTimeout(function() {
+							if(currentVal != '') {
+								$('input.text', thisQuestion).autocomplete('search');
+							}
+						}, 200);
+					}
+					else {
+						currentVal = $(this).val();
+					}
+				}
+			}).on('keyup', function(e) {
+				if($.trim($(this).val()) == '') {
+			 		$(this).val('');
+					currentVal = $(this).val();
+				}
+ 			});
+		});
+	});
+
+</script>]]></question>
+    <preg/>
+    <help><![CDATA[Inserire almeno le prime lettere del luogo di nascita, sia che si tratti di Comune italiano o di stato estero, siano essi attuali o cessati, come indicato nel documento di riconoscimento<br />Nel caso in cui non si trova in elenco il luogo di nascita, digitare "Non trovato", premere il testo "Invio" e rispondere alla domanda successiva.]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[6112]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[Qaltroluogo]]></title>
+    <question><![CDATA[Altro Comune di nascita o stato estero di nascita.]]></question>
+    <preg/>
+    <help><![CDATA[Inserire il nome del Comune non in elenco mettendo tra parentesi la sigla della Provinca. In caso di Stato estero, mettere tra parentesi la sigla EE.]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[substr(Qluogonascita.NAOK,-4)=='V999']]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[6111]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[G]]></type>
+    <title><![CDATA[Qsesso]]></title>
+    <question><![CDATA[Sesso]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[6113]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[*]]></type>
+    <title><![CDATA[chkCognomeCF]]></title>
+    <question><![CDATA[{sum(if(is_int(stripos(Qcognome.NAOK,substr(Qcodfisc.NAOK,0,1))),0,1), if(((substr(Qcodfisc.NAOK,1,1))=='X') OR (is_int(stripos(Qcognome.NAOK,substr(Qcodfisc.NAOK,1,1)))),0,1), if(((substr(Qcodfisc.NAOK,2,1))=='X') OR (is_int(stripos(Qcognome.NAOK,substr(Qcodfisc.NAOK,2,1)))),0,1))}]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[6114]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[*]]></type>
+    <title><![CDATA[chkNomeCF]]></title>
+    <question><![CDATA[{sum(if(is_int(stripos(Qnome.NAOK,substr(Qcodfisc.NAOK,3,1))),0,1), if(((substr(Qcodfisc.NAOK,4,1))=='X') OR (is_int(stripos(Qnome.NAOK,substr(Qcodfisc.NAOK,4,1)))),0,1), if(((substr(Qcodfisc.NAOK,5,1))=='X') OR (is_int(stripos(Qnome.NAOK,substr(Qcodfisc.NAOK,5,1)))),0,1))}]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[8]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[6116]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[*]]></type>
+    <title><![CDATA[chkAnnoMeseCF]]></title>
+    <question><![CDATA[{if((substr(Qcodfisc.NAOK,6,3))==join(date("y",strtotime(Qdatanascita.NAOK)),if(date("m",strtotime(Qdatanascita.NAOK))=='01','A',if(date("m",strtotime(Qdatanascita.NAOK))=='02','B',if(date("m",strtotime(Qdatanascita.NAOK))=='03','C',if(date("m",strtotime(Qdatanascita.NAOK))=='04','D',if(date("m",strtotime(Qdatanascita.NAOK))=='05','E',if(date("m",strtotime(Qdatanascita.NAOK))=='06','H',if(date("m",strtotime(Qdatanascita.NAOK))=='07','L',if(date("m",strtotime(Qdatanascita.NAOK))=='08','M',if(date("m",strtotime(Qdatanascita.NAOK))=='09','P',if(date("m",strtotime(Qdatanascita.NAOK))=='10','R',if(date("m",strtotime(Qdatanascita.NAOK))=='11','S','T')))))))))))),0,1)}]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[9]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[6115]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[*]]></type>
+    <title><![CDATA[chkGiornoSessoCF]]></title>
+    <question><![CDATA[{if(substr(Qcodfisc.NAOK,9,2)==sprintf("%'.02d",sum(idate("d",strtotime(Qdatanascita.NAOK)),if(Qsesso.NAOK=='F',40,0))),0,1)}]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[10]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[6117]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[*]]></type>
+    <title><![CDATA[chkLuogoNascitaCF]]></title>
+    <question><![CDATA[{if(substr(strtoupper(Qluogonascita.NAOK),-4)==substr(strtoupper(Qcodfisc.NAOK),-5,4),0,1)}]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[11]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[6118]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[*]]></type>
+    <title><![CDATA[chkTotCF]]></title>
+    <question><![CDATA[{sum(chkCognomeCF.NAOK,chkNomeCF.NAOK,chkAnnoMeseCF.NAOK,chkGiornoSessoCF.NAOK,chkLuogoNascitaCF.NAOK)}]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[12]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[6119]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[586423]]></sid>
+    <gid><![CDATA[303]]></gid>
+    <type><![CDATA[X]]></type>
+    <title><![CDATA[txtCheckCF]]></title>
+    <question><![CDATA[<span style="color:#990000;"><b>Attenzione: sono state rilevate incompatibilità tra il codice fiscale e i dati personali inseriti.</b></span> <br />Incogruenze rilevate:<br />{if(chkCognomeCF.NAOK>0,'Cognome non compatibile. ','')}{if(chkNomeCF.NAOK>0,'Nome non compatibile. ','')}{if(chkAnnoMeseCF.NAOK>0,'Anno o mese di nascita non compatibile. ','')}{if(chkGiornoSessoCF.NAOK>0,'Sesso o giorno di nascita non compatibile. ','')}{if(chkLuogoNascitaCF.NAOK>0,'Luogo di nascita non compatibile. ','')}<br />Se i dati inseriti si ritengono corretti nonostante le incompatibilità rilevate, fare click sul pulsante "Avanti" e confermare i dati nella schermata successiva.<br />Se invece è stato commesso qualche errore di digitazione, la preghiamo di effettuare le modifiche in questa schermata. In assenza di incompatibilità questo messaggio non sarà più visualizzato.]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[13]]></question_order>
+    <language><![CDATA[it]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[chkTotCF.NAOK>0]]></relevance>
+    <modulename/>
+   </row>
+  </rows>
+ </questions>
+ <question_attributes>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>attribute</fieldname>
+   <fieldname>value</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[6106]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6106]]></qid>
+    <attribute><![CDATA[maximum_chars]]></attribute>
+    <value><![CDATA[50]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6107]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6107]]></qid>
+    <attribute><![CDATA[maximum_chars]]></attribute>
+    <value><![CDATA[60]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6108]]></qid>
+    <attribute><![CDATA[em_validation_q]]></attribute>
+    <value><![CDATA[regexMatch("/^[A-Z]{6}[0-9]{2}[abcdehlmprstABCDEHLMPRST]{1}[0-9]{2}([a-zA-Z]{1}[0-9a-zA-Z]{3})[a-zA-Z]{1}$/",self.NAOK)]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6108]]></qid>
+    <attribute><![CDATA[em_validation_q_tip]]></attribute>
+    <value><![CDATA[Inserire un codice fiscale con le lettere in maiuscolo e un formato valido]]></value>
+    <language><![CDATA[it]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[6108]]></qid>
+    <attribute><![CDATA[maximum_chars]]></attribute>
+    <value><![CDATA[16]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6109]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6110]]></qid>
+    <attribute><![CDATA[em_validation_q]]></attribute>
+    <value><![CDATA[regexMatch("/^[ABCDEFGHILMZV]{1}[0-9]{3}/",substr(self.NAOK,-4))]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6110]]></qid>
+    <attribute><![CDATA[em_validation_q_tip]]></attribute>
+    <value><![CDATA[Selezionare soltanto un elemento dalla lista]]></value>
+    <language><![CDATA[it]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[6110]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6111]]></qid>
+    <attribute><![CDATA[display_type]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6111]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6113]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6114]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6115]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6116]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6117]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[6118]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+  </rows>
+ </question_attributes>
+</document>

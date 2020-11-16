@@ -168,9 +168,9 @@
 		var surveyRoot = location.pathname.split('index.php')[0];
 
 		// Carica il csv da cartella "files" della survey
-      	//var url = surveyRoot+"upload/surveys/"+{SID}+"/files/luoghi_nascita.csv";
+      	var url = surveyRoot+"upload/surveys/"+{SID}+"/files/luoghi_nascita.csv";
       	// Carica il csv dal sito "cervelletta.it" - commentare istruzione precedente
-      	var url = "https://www.cervelletta.it/ls-ita/data/luoghi_nascita.csv";
+      	//var url = "https://www.cervelletta.it/ls-ita/data/luoghi_nascita.csv";
 
       	// Crea l'array per memorizzare i dati
 		var elenco_arr= new Array();
